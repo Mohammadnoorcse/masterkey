@@ -1,0 +1,31 @@
+.partition {
+    position: relative;
+    display: flex;
+    flex: 1;
+    margin: 2px;
+    border: 1px solid #ddd;
+    overflow: hidden;
+    
+}
+
+
+
+button {
+    margin: 2px;
+    padding: 5px;
+}
+
+
+.split.vertical {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+} 
+
+ .split.horizontal {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+
